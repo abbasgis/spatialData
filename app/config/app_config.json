@@ -1,0 +1,11 @@
+{
+  "db_host": "localhost",
+  "db_port": "5432",
+  "db_name": "adb_lbdc",
+  "db_user": "postgres",
+  "db_password": "123",
+  "ALGORITHM": "HS256",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": 30,
+  "sentinel_user": "abbasgis",
+  "sentinel_password": "abbas123@abc"
+}

@@ -1,0 +1,13 @@
+{
+  "db_host": "localhost",
+  "db_port": "5432",
+  "db_name": "adb_lbdc",
+  "db_user": "postgres",
+  "db_password": "",
+  "ALGORITHM": "HS256",
+  "ACCESS_TOKEN_EXPIRE_MINUTES": 30,
+  "sentinel_user": "",
+  "sentinel_password": "",
+  "landsat_user": "",
+  "landsat_password": ""
+}

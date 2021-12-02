@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from starlette.responses import RedirectResponse
 
 from app.db.database import engine, Base, SessionLocal
-from app.routers import sentinel
+from app.routers import sentinel, landsat
 # For django imports
 from fastapi.middleware.wsgi import WSGIMiddleware
 from django.core.wsgi import get_wsgi_application
@@ -58,3 +58,4 @@ def django_admin():
     return response
 
 app.include_router(sentinel.router)
+app.include_router(landsat.router)

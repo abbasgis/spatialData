@@ -34,7 +34,6 @@ class SentinelUtils:
         # product_id='835405b7-2c17-4681-b743-fb9d7bb5591a'
         # download single scene by known product id
         self.api.download(product_id)
-
         # # search by polygon, time, and Hub query keywords
         # footprint = geojson_to_wkt(read_geojson('map.geojson'))
         # products = api.query(footprint,
